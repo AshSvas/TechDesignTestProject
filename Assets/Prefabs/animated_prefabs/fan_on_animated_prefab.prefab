@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5567806777748755400}
   - component: {fileID: 5567806777748755444}
   - component: {fileID: 5567806777748755441}
-  - component: {fileID: 5567806777748755440}
+  - component: {fileID: 4250294322629543401}
   m_Layer: 0
   m_Name: fan_on_animated_prefab
   m_TagString: Untagged
@@ -151,8 +151,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 5567806777748755440}
-          m_TargetAssemblyTypeName: active_on_click, Assembly-CSharp
+        - m_Target: {fileID: 4250294322629543401}
+          m_TargetAssemblyTypeName: on_click_animate, Assembly-CSharp
           m_MethodName: ObjectWasClicked
           m_Mode: 1
           m_Arguments:
@@ -163,7 +163,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &5567806777748755440
+--- !u!114 &4250294322629543401
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -172,6 +172,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 4698489841213245537}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38ce91da2091319429c339ef7d932eff, type: 3}
+  m_Script: {fileID: 11500000, guid: f5f0d9ed7c464854995de1814ef005fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
